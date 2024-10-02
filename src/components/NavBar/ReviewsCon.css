@@ -1,0 +1,38 @@
+.ReviewContainer{
+    width: auto;
+    padding: 50px 20px;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 200px;
+}
+
+.ReviewContainer .RText #Testim{
+    color: #7abb40;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.ReviewContainer .RText .Feed{
+    font-size: 50px;
+    color: #D8D1BD;
+    margin-bottom: 100px;
+}
+
+.ReviewContainer .ReviewBody{
+    display: flex;
+    overflow:visible;
+    gap: 80px;
+    margin-top: 20px;
+}
+
+.ReviewContainer .ReviewBody .Rbox{
+    overflow: visible;
+}
+
+.ReviewContainer .ReviewBody .R1{
+    margin-top: 80px;
+}

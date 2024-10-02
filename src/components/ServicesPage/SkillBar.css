@@ -1,0 +1,118 @@
+.SkillBarBody{
+    background: #222222;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 0px 40px 40px;
+}
+
+.SkillBarBody .SkillContent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: visible;
+    width:40%;
+}
+.SkillBarBody .SkillContent .bars{
+    overflow: visible;
+    width: 100%;
+}
+.SkillBarBody .SkillContent h3{
+    color: #7abb40;
+}
+
+.SkillBarBody .SkillContent h1{
+    color:#D8D1BD;
+    font-size: 50px;
+    width: 600px;
+    margin-bottom: 10px;
+
+}
+
+.SkillBarBody .SkillContent p{
+    color: #d8d1bd95;
+}
+
+.SkillBarBody .SkillContent .bars .percent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.SkillBarBody .SkillContent .bars .percent .skillText{
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.SkillBarBody .SkillContent .bars .Bar{
+    width: 100%;
+    height: 10px;
+    border-radius: 50px;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.363);
+}
+
+.SkillBarBody .SkillContent .bars .Bar .color{
+    width: 90%;
+    background: linear-gradient(to right,  #02aabd 0%,#00e696 100%);
+    border-radius: 50px;
+    height: 10px;
+}
+
+.SkillBarBody .SkillContent .bars .Bar .mod{
+    width: 86%;
+    background: linear-gradient(to right,  #02aabd 0%,#00e696 100%);
+    border-radius: 50px;
+    height: 10px;
+}
+
+.SkillBarBody .SkillContent .bars .Bar .anim{
+    width: 65%;
+    background: linear-gradient(to right,  #02aabd 0%,#00e696 100%);
+    border-radius: 50px;
+    height: 10px;
+}
+
+.SkillBarBody .SkillContent .bars .Bar .vid{
+    width: 93%;
+    background: linear-gradient(to right,  #02aabd 0%,#00e696 100%);
+    border-radius: 50px;
+    height: 10px;
+}
+
+.SkillBarBody .SkillContent .bars .Bar .gra{
+    width: 97%;
+    background: linear-gradient(to right,  #02aabd 0%,#00e696 100%);
+    border-radius: 50px;
+    height: 10px;
+}
+
+
+@media screen and (max-width:1080px) {
+    .SkillBarBody .SkillContent{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:890px) {
+    .SkillBarBody .SkillContent h1{
+        font-size: 40px;
+    }
+
+    .SkillBarBody .SkillContent p{
+        width: auto;
+    }
+}
+
+@media screen and (max-width:530px) {
+    .SkillBarBody .SkillContent h1{
+        font-size: 30px;
+        width: auto;
+    }
+
+    .SkillBarBody .SkillContent p{
+        width: auto;
+        font-size: 13px;
+    }
+}

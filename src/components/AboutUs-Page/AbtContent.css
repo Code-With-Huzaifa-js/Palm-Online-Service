@@ -1,0 +1,98 @@
+.AbtBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 10px;
+    gap: 80px;
+    margin-bottom: 100px;
+}
+.AbtBody .Founder{
+    border: 1px solid #79bb4034;
+    display: flex;
+    background-color: #36353355;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px;
+    width: 600px;
+}
+.AbtBody .Founder #abtImg{
+    width: 550px;
+    border-radius: 5px;
+}
+
+.AbtBody .Founder h1{
+    color: #D8D1BD;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.AbtBody .Founder p{
+    margin-top: 30px;
+    color: #D8D1BD;
+}
+
+.AbtBody .FounC{
+    width: 500px;
+    overflow: visible;
+}
+
+.AbtBody .FounC p{
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #7abb40;
+}
+.AbtBody .FounC h1{
+    color:#D8D1BD;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.AbtBody .FounC h4{
+    font-weight: 300;
+    color: #D8D1BD;
+    margin-bottom: 40px;
+
+}
+
+
+@media screen and (max-width:1200px) {
+    .AbtBody .Founder{
+        width: 500px;
+    }
+    .AbtBody .FounC h1{
+        font-size: 40px;
+    }
+    .AbtBody .Founder #abtImg{
+        width: 450px;
+    }
+}
+
+@media screen and (max-width:1030px) {
+    .AbtBody .Founder{
+        width: 450px;
+    }
+    .AbtBody .FounC h1{
+        font-size: 35px;
+    }
+    .AbtBody .Founder #abtImg{
+        width: 400px;
+    }
+    .AbtBody .Founder h1{
+        font-size: 35px;
+    }
+    .AbtBody .Founder p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .AbtBody .FounC h1{
+        font-size: 30px;
+    }
+    .AbtBody .FounC{
+        width: 350px;
+    }
+}

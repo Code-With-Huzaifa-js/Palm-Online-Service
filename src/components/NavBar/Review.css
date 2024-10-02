@@ -1,0 +1,57 @@
+.Review{
+    background: linear-gradient(to right,  #02aabd 0%,#00e696 100%);
+    width: 700px;
+    padding: 20px 40px;
+    border-radius: 30px;
+    position: relative;
+    text-align: center;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Review .imgBorder{
+    width: 150px;
+    height: 150px;
+    margin-top: -100px;
+    border: 10px solid #191919;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background: white;
+    border-radius: 50%;
+}
+
+.Review .imgBorder img{
+    object-fit: cover;
+    width: 140px;
+}
+
+.Review #app{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.Review .RName{
+    transform: translate(-230px, 10px);
+}
+
+.Review .RName #cName{
+    color: #ffea00;
+    font-weight: 700;
+}
+.Review .RName #cLoc{
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+
+.Review .Stars{
+    transform: translate(230px,-25px);
+}
+
+.Review .Stars .fa-star, .fa-star-half-stroke{
+    color: rgb(255, 242, 0);
+    font-size: 20px;
+}

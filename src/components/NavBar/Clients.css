@@ -1,0 +1,116 @@
+.Clbody{
+    max-width: 400px;
+    max-height: 600px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #79bb403d;
+    border-radius: 10px;
+    transition: all 0.8s;
+
+    &&:hover{
+        border: 1px solid #7abb40;
+    }
+}
+
+.Clbody .header{
+    width: 100%;
+    background: #221A2F;
+    padding: 15px 20px;
+}
+
+.Clbody .header #hea{
+    color: #7abb40;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.Clbody .header #lohea{
+    color:#D8D1BD;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.Clbody img{
+    object-fit: cover;
+    cursor: pointer;
+    background-position: center;
+    width: 400px;
+    filter: grayscale(1);
+    opacity: 0.5;
+    height: 500px;
+    transition: all 0.8s;
+
+    &&:hover{
+        opacity: 1;
+        filter: grayscale(0);
+    }
+}
+
+.Clbody .upper{
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    background: #221a2fda;
+    width: 100%;
+    height: 70%;
+    color:#D8D1BD;
+    padding: 15px 20px;
+    transform: translateY(50%);
+    transition: all 0.8s;
+
+    &&:hover{
+        transform: translateY(0%);
+    }
+}
+
+.Clbody .upper .Cinfo{
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.Clbody .upper .Cinfo .client .para{
+    color: #7abb40;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+.Clbody .upper .Cinfo .client .pa{
+    font-weight: 600;
+}
+
+.Clbody .Cinfo .client .fa-star{
+    color: orange;
+    transform: translateY(1.5px) translateX(2px);
+    overflow: hidden;
+}
+
+.Clbody .upper .abt{
+    margin-top: 50px;
+    position: relative;
+    overflow: visible;
+
+    &&::before{
+        content: "";
+        position: absolute;
+        top: -20px;
+        width: 100%;
+        height: 1px;
+        background: #9b96b073;
+
+    }
+}
+
+
+.Clbody .upper .abt .para1{
+    line-height: 25px;
+    margin-bottom: 20px;
+    color:#D8D1BD;
+}
+
+@media screen and (max-width:410px) {
+    .Clbody{
+        width: 350px;
+    }
+}

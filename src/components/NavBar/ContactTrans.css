@@ -1,0 +1,62 @@
+
+.ContMain{
+    padding: 50px 10px;
+    display: flex;
+    height: 500px;
+    background-color: #32323057;
+    backdrop-filter: blur(100px);
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 150px;
+}
+
+.ContMain .ContactContent{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    text-align: center;
+    overflow: hidden;
+    justify-content: center;
+    color:#D8D1BD;
+
+}
+
+
+.ContMain .ContactContent p{
+    color: #7abb40;
+    overflow: hidden;
+    font-weight: 600;
+}
+
+.ContMain .ContactContent h1{
+    overflow: hidden;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.ContMain .ContactContent #contText{
+    color: #D8D1BD;
+    overflow: hidden;
+    line-height: 25px;
+}
+.ContMain .ContactContent .btnPos{
+    display: flex;
+    overflow: visible;
+    justify-content: center;
+}
+
+.ContMain .ContactContent .btnPos #reText{
+    text-decoration: none;
+    overflow: visible;
+}
+
+@media screen and (max-width:600px) {
+    .ContMain .ContactContent h1{
+        font-size: 35px;
+    }
+    .ContMain .ContactContent #contText{
+        color: #D8D1BD;
+        font-size: 13px;
+        line-height: 25px;
+    }
+}

@@ -1,0 +1,161 @@
+.Footer{
+
+    padding: 40px 40px;
+}
+
+.Footer .FooterBox1{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: visible;
+    align-items: center;
+    gap: 50px ;
+
+    &&::before{
+        content: "";
+        position: absolute;
+        top: -40px;
+        width: 100%;
+        left: 0px;
+        height: 1px;
+        background: #9994ad7e;
+    }
+}
+
+.Footer .FooterBox1 .FLogo{
+    color: white;
+}
+
+.Footer .FooterBox1 .FLogo img{
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+.Footer .FooterBox1 .FLogo #Wel{
+    margin-bottom: 20px;
+    margin-left: 5px;
+    color: #9994AD;
+}
+
+.Footer .FooterBox1 .FLogo .Social{
+    display: flex;
+    gap: 10px;
+    margin-left: 5px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.Footer .FooterBox1 .FLogo .fa-brands{
+    background: white;
+    cursor: pointer;
+    color: black;
+    padding: 12px 12px;
+    font-size: 20px;
+    overflow: hidden;
+    border-radius: 50px;
+    transition: all 0.3s;
+
+    &&:hover{
+        background: #271F34;
+        color: white;
+        scale: 1.2;
+    }
+}
+
+.Footer .FooterBox1 .FLogo .fa-facebook-f{
+    padding: 12px 16px;
+}
+
+.Footer .FooterBox1 .FServices{
+    margin-left: 200px;
+}
+.Footer .FooterBox1 .FServices h3{
+    margin-bottom: 20px;
+    color: white;
+}
+.Footer .FooterBox1 .FServices ul li{
+    margin-bottom: 5px;
+    color: #9994AD;
+    font-size: 14px;
+    cursor: pointer;
+    &&:hover{
+        color: #7abb40  ;
+        cursor: pointer;
+    }
+}
+.Footer .FooterBox1 .FCompany{
+    margin-top: -70px;
+    margin-left: 200px;
+}
+
+.Footer .FooterBox1 .FCompany h3{
+    margin-bottom: 20px;
+    color: white;
+}
+
+.Footer .FooterBox1 .FCompany ul li{
+    margin-bottom: 5px;
+    color: #9994AD;
+    font-size: 14px;
+    cursor: pointer;
+    &&:hover{
+        color: #7abb40;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width:1290px){
+    .Footer .FooterBox1 .FCompany{
+        margin-top: -70px;
+        margin-left: 80px;
+
+    }
+
+    .Footer .FooterBox1 .FServices{
+        margin-left: 60px;
+    }
+}
+@media screen and (max-width:1030px){
+    .Footer .FooterBox1 .FCompany{
+        margin-top: -70px;
+        margin-left: 30px;
+
+    }
+
+    .Footer .FooterBox1 .FServices{
+        margin-left: 40px;
+    }
+}
+@media screen and (max-width:960px) {
+    .Footer .FooterBox1 .FServices{
+        margin-left: 0px;
+    }
+
+    .Footer .FooterBox1 .FCompany{
+        margin-left: 0;
+        margin-top: -70px;
+    }
+
+
+}
+
+@media screen and (max-width:879px) {
+    .Footer .FooterBox1 .FServices{
+        margin-left: 0px;
+    }
+
+    .Footer .FooterBox1 .FCompany{
+        margin-left: 0;
+        margin-top: -50px;
+    }
+
+
+}
+
+
+
+/* @media screen and (max-width:1300px){
+    .Footer .FooterBox1 .FCompany{  
+        margin-top: -70px;
+    }
+} */

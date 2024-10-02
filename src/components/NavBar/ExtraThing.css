@@ -1,0 +1,18 @@
+.bar{
+    background: linear-gradient(to right,  #02aabd 0%,#00e696 100%);
+    margin-top: 0px;
+}
+
+.bar .box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px 0px;
+    gap: 100px;
+    color: white;
+    text-align: center;
+}
+
+.bar .box h1{
+    font-size: 50px;
+}

@@ -1,0 +1,123 @@
+.ContactBody{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    padding: 20px 40px;
+    gap: 50px;
+    align-items: center;
+}
+.ContactBody .information{
+    width: 600px;
+    overflow: visible;
+}
+
+#Follow{
+    margin-top: 50px;
+    margin-bottom:  30px;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 200;
+}
+.ContactBody .information .Social{
+    display: flex;
+    gap: 10px;
+    overflow: visible;
+}
+
+.ContactBody .information .Social .fa-brands{
+    background: white;
+    font-size: 20px;
+    overflow: hidden;
+    padding: 10px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &&:hover{
+        background: #271F34;
+        color: white;
+        scale: 1.2;
+    }
+}
+
+.ContactBody .information .Social .ins{
+    padding: 10px 13px;
+}
+
+.ContactBody .information .Social .you{
+    padding: 10px 10px;
+}
+.ContactBody .information #GET{ 
+    color: #7abb40;
+    margin-bottom: 20px;
+}
+
+.ContactBody .information #SEAM{
+    color:#D8D1BD;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.ContactBody .information #QUES{
+    color:#ffffff;
+    margin-bottom: 30px;
+}
+
+.ContactBody .information .ContactsLinks{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: left;
+    gap: 40px;
+}
+
+.ContactBody .information .ContactsLinks .OURINFO{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.ContactBody .information .ContactsLinks .OURINFO .icons{
+    background: linear-gradient(to right,  #02aabd 0%,#00e696 100%);
+    padding: 15px 19px;
+    border-radius: 50px;
+    font-size: 30px;
+    color: white;
+}
+
+.ContactBody .information .ContactsLinks .OURINFO .fix1{
+    padding: 13px 15px;
+    font-size: 33px;
+}
+
+.ContactBody .information .ContactsLinks .OURINFO .fix2{
+    padding: 13px 14px;
+    font-size: 30px;
+}
+
+.ContactBody .information .ContactsLinks .OURINFO .posfix{
+    margin-left: 30px;
+}
+
+.ContactBody .information .ContactsLinks .OURINFO .HEAD{
+    color: #D8D1BD;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.ContactBody .information .ContactsLinks .OURINFO .Att{
+    color: #ffffffa5;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+@media screen and (max-width:1290px) {
+    .ContactBody .information .ContactsLinks .OURINFO .posfix{
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width:746px) {
+    .ContactBody{
+        flex-wrap: wrap;
+    }
+}

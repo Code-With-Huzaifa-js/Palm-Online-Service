@@ -1,0 +1,136 @@
+.cont{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    overflow: hidden;
+    position: relative;
+
+
+}
+
+.cont .box{
+    /* background: linear-gradient(to bottom,#cccac634 0%,#869a742a 100%); */
+    background: linear-gradient(to bottom,  #3232327f 50%,#465c5737 100%);
+
+    backdrop-filter: blur(40px);
+    width: 80%;
+    height: auto;
+    padding: 30px 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* &&::before{
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 80px;
+        left: 40%;
+        border-radius: 50%;
+        background: #c281ee81;
+    };
+    &&::after{
+        content: "";
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        top: 100px;
+        left: 45%;
+        border-radius: 50%;
+        background: #f581c784;
+        z-index: -1
+    } */
+}
+.cont .box .text{
+    color: white;
+    text-align: center;
+    overflow: visible;
+}
+.cont .box .text #head{
+    color: #D8D1BD;
+    font-size: 40px;
+    text-align: center;
+}
+
+.cont .box .img{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+    margin-top: 80px;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+
+.cont .box .img img{
+    width: 200px;
+    height: 53px;
+    cursor: pointer;
+    opacity: 0.3;
+    transition: all 0.5s;
+    overflow: visible;
+
+    &&:hover{
+        opacity: 1;
+
+    }
+}
+
+
+@media  screen and (min-width:2559px) {
+    .cont{
+        margin-top: -200px;
+    }
+}
+
+@media screen and (max-width:1082px) {
+    .cont .box .text #head{
+        font-size: 30px;
+    }
+    .cont .box .img img{
+        width: 150px;
+        height: 40px;
+    }
+    .cont .box .img{
+        gap: 40px;
+    }
+    .cont .box{
+        height: auto;
+    }
+}
+@media screen and (max-width:720px) {
+    .cont .box .text #head{
+        font-size: 26px;
+    }
+    .cont .box .img img{
+        width: 150px;
+        height: 40px;
+    }
+    .cont .box .img{
+        gap: 30px;
+        margin-top: 40px;
+    }
+    .cont .box{
+        height: auto;
+    }
+}
+
+@media screen and (max-width:491px) {
+    .cont .box .text #head{
+        font-size: 20px;
+    }
+    .cont .box .img img{
+        width: 120px;
+        height: 35px;
+    }
+    .cont .box .img{
+        gap: 30px;
+        margin-top: 40px;
+    }
+    .cont .box{
+        height: auto;
+    }
+}

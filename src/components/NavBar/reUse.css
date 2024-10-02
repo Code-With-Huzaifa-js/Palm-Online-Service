@@ -1,0 +1,35 @@
+.boxy{
+    max-width: 400px;
+    overflow: hidden;
+    border: 1px solid #79bb4029;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.boxy .cover{
+    background:  #363533;
+    height: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 40px 30px;
+    color: white;
+}
+
+.boxy .cover h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.boxy .cover p{
+    line-height: 25px;
+    color: #D8D1BD;
+    margin-bottom: 40px;
+}
+
+.boxy .cover .fa-solid{
+    font-size: 40px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    color: #7abb40;
+}

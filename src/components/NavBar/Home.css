@@ -1,0 +1,149 @@
+.Container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    overflow: hidden;
+}
+
+.Container .box{
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
+    gap: 20px;
+}
+
+
+.wel{
+    width: 100%;
+    display: flex;
+    justify-content: center;     
+}
+.Container .box h4{
+    font-weight: 400;
+    padding: 8px 15px;
+    border: 1px solid #7abb40;
+    border-radius: 50px;
+    width: 150px
+}
+
+.Container .box h1{
+    /* color: rgb(56, 233, 56); */
+    color: #7abb40;
+    font-size: 60px;
+}
+.Container .box h1 span{
+    color:#D8D1BD;
+}
+.Container .box h2{
+    font-size: 40px;
+}
+
+.Container .box h3{
+    font-weight: 400;
+    padding: 0px 10px;
+    margin-top: 20px;
+    font-size: 17px;
+    color: #D8D1BD;
+}
+
+
+#btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;   
+    overflow: visible;  
+}
+
+.Container .box button{
+    font-size: 17px;
+    cursor: pointer;
+    padding: 13px 20px;
+    border-radius: 50px;
+    color: white;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    gap: 8px;
+    width: auto;
+    letter-spacing: 3px;
+    text-align: center;
+
+    &:hover{
+        background: linear-gradient(to right, #ffaa85 0%,#ff81bf 38% ,#db81da 77%,#b581f9 100%);
+        box-shadow: 0px 4px 10px 3px #ffffff3e;
+    }
+}
+.fa-google-drive{
+    overflow: hidden;
+}
+
+@media  screen and (min-width:2559px) {
+    .Container{
+        margin-top: -200px;
+    }
+}
+@media screen and (max-width:588px) {
+    .Container .box h1{
+        font-size: 50px;
+    }
+    .Container .box h2{
+        font-size: 30px;
+    }
+    .Container .box h3{
+        font-size: 15px;
+    }
+    /* .Container .box h4{
+        
+    } */
+    .Container .box button{
+        font-size: 15px;
+        width:auto;
+    }
+}
+@media screen and (max-width:498px) {
+    .Container .box h1{
+        font-size: 40px;
+    }
+    .Container .box h2{
+        font-size: 25px;
+    }
+    .Container .box h3{
+        font-size: 15px;
+    }
+    .Container .box h4{
+        font-size: 15px;
+        padding: 8px 8px;
+        width: 110px;
+    }
+    .Container .box button{
+        font-size: 12px;
+        width: auto;
+    }
+}
+@media screen and (max-width:415px) {
+    .Container .box h1{
+        font-size: 30px;
+    }
+    .Container .box h2{
+        font-size: 21px;
+    }
+    .Container .box h3{
+        font-size: 15px;
+        margin-top: 0px;
+    }
+    .Container .box h4{
+        font-size: 15px;
+        padding: 8px 8px;
+        width: 110px;
+    }
+    .Container .box button{
+        font-size: 12px;
+        width: auto;
+    }
+}

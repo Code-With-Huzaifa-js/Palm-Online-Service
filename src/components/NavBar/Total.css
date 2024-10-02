@@ -1,0 +1,123 @@
+.body{
+    width: 100%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    height: auto;
+    padding: 50px 0px;
+}
+
+.body .content{
+    margin-left: 200px;
+    text-align: left;
+    color: #D8D1BD;
+    overflow: visible;
+}
+.body .content #p1{
+    color: #7abb40  ;
+    margin-bottom: 20px;
+}
+.body .content p{
+    color: #817c8f;
+    width: 39%;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.body .content h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.body .content .a{
+    margin-bottom: 40px;
+}
+
+.body .bar{
+    background: linear-gradient(to right,  #02aabd 0%,#00e696 100%);
+    margin-top: 100px;
+}
+
+.body .bar .box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px 0px;
+    gap: 100px;
+    color: white;
+    text-align: center;
+}
+
+.body .bar .box h1{
+    font-size: 50px;
+}
+
+@media  screen and (min-width:2559px) {
+    .body{
+        margin-top: 100px;
+    }
+
+    .body .content{
+        margin-left: 250px;
+    }
+}
+@media  screen and (min-width:3000px) {
+    .body .content{
+        margin-left: 400px;
+    }
+}
+@media screen and (max-width:1065px) {
+    .body .content{
+        margin-left: 100px;
+    }
+    .body .content p{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .body .content{
+        margin-left: 80px;
+    }
+    .body .content h1{
+        font-size: 30px;
+    }
+    .body .content p{
+        width: 90%;
+    }
+}
+@media screen and (max-width:500px) {
+    .body .content{
+        margin-left: 30px;
+    }
+    .body .content p{
+        font-size: 14px;
+        width: 80%;
+    }
+    .body .content h1{
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+
+    .body .content #p1{
+        font-size: 14px;
+    }
+    
+}
+@media screen and (max-width:360px) {
+    .body .content{
+        margin-left:  20px;
+    }
+    .body .content p{
+        font-size: 12px;
+        width: 80%;
+    }
+    .body .content h1{
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .body .content #p1{
+        font-size: 12px;
+    }
+    
+}

@@ -1,0 +1,183 @@
+.container{
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    padding: 20px 100px;
+    height: 80px;
+    overflow: visible;
+    align-items: center;
+
+    &&::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background-color: rgba(255, 255, 255, 0.122);
+        width: 100%;
+        height: 1px;
+    }
+
+}
+
+.container .img{
+    margin-left: 0px;
+}
+
+.container .img img{
+    width: 130px;
+}
+
+
+.container .links{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    overflow:visible;
+    gap: 30px;
+    margin-right: 50px;
+}
+.container .links .Link{
+    text-decoration: none;
+    overflow: visible;
+}
+.sideBar .l2 .Link{
+    overflow: visible;
+    text-decoration: none;
+}
+.container .links li{
+    cursor: pointer;
+    transition: all 0.2s;
+
+    &:hover{
+        color:" #7abb40",
+    }
+}
+
+.container .links .btn,.btn{
+    cursor: pointer;
+    padding: 11px 20px;
+    /* background: linear-gradient(to right,  #b581f9 0%,#db81da 38%,#ff81bf 77%,#ffaa85 100%); */
+    background: linear-gradient(to right,  #02aabd 0%,#00e696 100%);
+    border-radius: 50px;
+    color: white;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    gap: 8px;
+    letter-spacing: 3px;
+    text-align: center;
+
+    &:hover{
+        /* background: linear-gradient(to right, #ffaa85 0%,#ff81bf 38% ,#db81da 77%,#b581f9 100%); */
+        background: linear-gradient(to right,  #00e696 0%,#02aabd 100%);
+        box-shadow: 0px 4px 10px 3px #ffffff3e;
+    }
+}
+
+.container .links button i{
+    margin-top: 1px;
+}
+
+
+.container .fa-bars{
+    font-size: 25px;
+    margin-right: 80px;
+    margin-top: 8px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+/* Side Bar css dont mix it */
+
+.sideBar{
+    background-color: rgba(255, 255, 255, 0.188);
+    backdrop-filter: blur(10px);
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    height: 100%;
+    width: 30%;
+    transform: translateX(150%);
+    right: 0;
+}
+
+.sideBar ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    overflow: visible;
+    gap: 40px;
+}
+
+.sideBar ul li{
+    cursor: pointer;
+    color: white;
+    transition: all 0.2s;
+
+    &:hover{
+        color: #f466b2;
+    }
+}
+
+.sideBar .close{
+    position: absolute;
+    overflow: hidden;
+    top: 10px;
+    left: 20px;
+    font-size: 40px;
+    cursor: pointer;
+    color: white;
+}
+
+@media screen and (max-width: 1220px) {
+    .container .links{
+        display: none;
+    }
+    .sideBar{
+        display: flex;
+    }
+
+    .container .fa-bars{
+        display: block;
+        margin-right: 0;
+    }
+    .container .img{
+        margin-left: 0px;
+    }    
+}
+@media screen and (min-width: 1220px) {
+    .container .fa-bars{
+        display: none;
+    }
+    .sideBar{
+        display: none;
+    }
+    .container .links{
+        display: flex;
+    }
+}
+@media  screen and (max-width:950px) {
+
+    .sideBar{
+        width: 50%;
+    }
+
+}
+@media  screen and (max-width:700px) {
+    
+    .container{
+        padding: 20px 30px;
+    }
+    .sideBar{
+        width: 100%;
+    }
+
+}

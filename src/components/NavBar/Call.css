@@ -1,0 +1,57 @@
+.Call{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+    margin-bottom: 200px;
+}
+
+.Call .CallBody{
+    background: #300569;
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.Call .CallBody #Chead{
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.Call .CallBody #Cbtn{
+    padding: 20px 40px;
+    font-size: 17px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 50px;
+    transition: all 0.2s;
+
+    &&:hover{
+        background: #7abb40;
+        color: white;
+    }
+}
+
+@media screen and (max-width:1240px) {
+    .Call .CallBody{
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .Call .CallBody{
+        gap: 40px;
+    }
+
+    .Call .CallBody #Chead{
+        font-size: 25px;
+    }
+    .Call .CallBody #Cbtn{
+        font-size: 16px;
+        text-align: center;
+    }
+}

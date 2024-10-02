@@ -1,0 +1,60 @@
+.Pop{
+    color: black;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.096) ;
+    backdrop-filter: blur(5px);
+}
+
+.Pop .popBody{
+    background: linear-gradient(to right,  #02aabd 0%,#00e696 100%);
+    padding: 30px 80px;
+    text-align: center;
+    border-radius: 20px;
+    border: 5px solid rgb(255, 208, 0);
+}
+
+.Pop .popBody .fa-check{
+    font-size: 40px;
+    overflow: hidden;
+    background: white;
+    border: 5px solid #00e696;
+    padding: 15px 18.5px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    color: #00e696;
+}
+
+.Pop .popBody h1{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.Pop .popBody h3{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.Pop .popBody .center{
+    display: flex;
+    justify-content: center;
+    overflow: visible;
+}
+
+.Pop .popBody .center .btn1{
+    padding: 10px 20px;
+    font-size: 17px;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    background: #6089f8;
+    color: white;
+}

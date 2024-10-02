@@ -1,0 +1,94 @@
+.FormBody{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 40px 20px;
+}
+
+.FormBody .FormContainer{
+    background: linear-gradient(to right,  #02aabd 0%,#00e696 100%);
+    border-radius: 10px;
+    padding: 20px 20px;
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+
+}
+
+.FormBody .FormContainer h1{
+    margin-bottom: 20px;
+    color: rgb(11, 11, 11);
+}
+
+.FormBody .FormContainer .InputBox{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.FormBody .FormContainer .InputBox .inp{
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 5px;
+    border: 0px;
+    background: #ffffff;
+}
+
+.FormBody .FormContainer .InputBox .Error{
+    color: red;
+    text-align: left;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.FormBody .FormContainer .textArea .Error{
+    color: red;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.FormBody .FormContainer .textArea .txe{
+    padding: 10px 20px;
+    border-radius: 5px;
+    resize: none;
+    border: 0px;
+    outline: none;
+}
+
+.FormBody .FormContainer .btn1{
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: 0px;
+    background-color:lightblue;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media screen and (max-width:570px) {
+    .FormBody .FormContainer .textArea .txe{
+        width: 400px;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width:490px) {
+    .FormBody .FormContainer .textArea .txe{
+        width: 300px;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .FormBody .FormContainer .textArea .txe{
+        width: 200px;
+        text-align: left;
+    }
+}

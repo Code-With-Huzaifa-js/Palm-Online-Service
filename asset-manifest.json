@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Palm-Online-Service/static/css/main.39a72da6.css",
+    "main.js": "/Palm-Online-Service/static/js/main.34d91856.js",
+    "static/media/Logo.png": "/Palm-Online-Service/static/media/Logo.e3a6a2cb3a9070da67f2.png",
+    "static/media/Success.mp3": "/Palm-Online-Service/static/media/Success.fd2c2fea27379cbc44da.mp3",
+    "static/media/loader.gif": "/Palm-Online-Service/static/media/loader.27d34426f79c0840595d.gif",
+    "index.html": "/Palm-Online-Service/index.html",
+    "main.39a72da6.css.map": "/Palm-Online-Service/static/css/main.39a72da6.css.map",
+    "main.34d91856.js.map": "/Palm-Online-Service/static/js/main.34d91856.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39a72da6.css",
+    "static/js/main.34d91856.js"
+  ]
+}
